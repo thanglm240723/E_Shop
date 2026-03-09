@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceAPI.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceAPI.Infrastructure", "src\EcommerceAPI.Infrastructure\EcommerceAPI.Infrastructure.csproj", "{F594D42A-F4AD-4101-B130-0EBDC23B2935}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,5 +85,8 @@ Global
 		{C6AC46A2-9030-4631-B2C0-FCBFD7683B46} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{660841A0-8C8F-44EF-8B95-19BC2FA771DC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{F594D42A-F4AD-4101-B130-0EBDC23B2935} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDE9EC19-8054-4935-828A-1CCC39C62894}
 	EndGlobalSection
 EndGlobal
