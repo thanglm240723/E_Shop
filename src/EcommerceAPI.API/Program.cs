@@ -95,7 +95,8 @@ var app = builder.Build();
 // ============================================
 // SEED DATA (Development only)
 // ============================================
-
+if (true)
+{
     using (var scope = app.Services.CreateScope())
     {
         try
@@ -114,13 +115,14 @@ var app = builder.Build();
             Console.WriteLine($"✗ Error seeding data: {ex.Message}");
         }
     }
+}
 
 
 // ============================================
 // CONFIGURE HTTP REQUEST PIPELINE
 // ============================================
 
-if (app.Environment.IsDevelopment())
+if (true)
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
