@@ -95,8 +95,7 @@ var app = builder.Build();
 // ============================================
 // SEED DATA (Development only)
 // ============================================
-if (app.Environment.IsDevelopment())
-{
+
     using (var scope = app.Services.CreateScope())
     {
         try
@@ -115,7 +114,7 @@ if (app.Environment.IsDevelopment())
             Console.WriteLine($"✗ Error seeding data: {ex.Message}");
         }
     }
-}
+
 
 // ============================================
 // CONFIGURE HTTP REQUEST PIPELINE
